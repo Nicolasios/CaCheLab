@@ -29,16 +29,16 @@ Files:
 ******
 
 # You will modifying and handing in these two files
-csim.c       Your cache simulator
-trans.c      Your transpose function
+csim.c       Your cache simulator</br>
+trans.c      Your transpose function</br>
 
 # Tools for evaluating your simulator and transpose function
-Makefile     Builds the simulator and tools
-README       This file
-driver.py*   The driver program, runs test-csim and test-trans
-cachelab.c   Required helper functions
-cachelab.h   Required header file
-csim-ref*    The executable reference cache simulator
+Makefile     Builds the simulator and tools</br>
+README       This file</br>
+driver.py*   The driver program, runs test-csim and test-trans</br>
+cachelab.c   Required helper functions</br>
+cachelab.h   Required header file</br>
+csim-ref*    The executable reference cache simulator</br>
 test-csim*   Tests your cache simulator
 test-trans.c Tests your transpose function
 tracegen.c   Helper program used by test-trans
