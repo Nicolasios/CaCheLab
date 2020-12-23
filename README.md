@@ -5,19 +5,25 @@ Running the autograders:
 ************************
 
 Before running the autograders, compile your code:
+```
     linux> make
+```
 
 Check the correctness of your simulator:
+```
     linux> ./test-csim
-
+```
 Check the correctness and performance of your transpose functions:
+ ```
     linux> ./test-trans -M 32 -N 32
     linux> ./test-trans -M 64 -N 64
     linux> ./test-trans -M 61 -N 67
+```
 
 Check everything at once (this is the program that your instructor runs):
+```
     linux> ./driver.py    
-
+```
 ******
 Files:
 ******
