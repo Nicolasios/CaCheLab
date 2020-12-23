@@ -1,8 +1,8 @@
 This is the handout directory for the CS:APP Cache Lab. 
 
-========================
-Running the autograders:
-========================
+
+> Running the autograders:
+
 
 Before running the autograders, compile your code:
 ```
@@ -24,15 +24,17 @@ Check everything at once (this is the program that your instructor runs):
 ```
     linux> ./driver.py    
 ```
-=============
-Files:
-=============
+
+> Files:
+
 
 # You will modifying and handing in these two files
+```
 csim.c       Your cache simulator</br>
 trans.c      Your transpose function</br>
-
+```
 # Tools for evaluating your simulator and transpose function
+```
 Makefile     Builds the simulator and tools</br>
 README       This file</br>
 driver.py*   The driver program, runs test-csim and test-trans</br>
@@ -43,3 +45,4 @@ test-csim*   Tests your cache simulator</br>
 test-trans.c Tests your transpose function</br>
 tracegen.c   Helper program used by test-trans</br>
 traces/      Trace files used by test-csim.c</br>
+```
